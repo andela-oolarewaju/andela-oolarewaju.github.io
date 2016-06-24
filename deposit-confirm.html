@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="deposit-confirm.stylesheet.css">
+</head>
+<body>
+  <div class="main-div">
+	  <div class="left-div">
+	    <p id="mm">Hi, Ore</p>
+	    <button class="menus balance" type="button">Balance 193,020.00</button>
+	    <button class="menus menu" onclick="location.href = 'change-pin.html';" type="button">Change pin</button>
+	    <button class="menus menu" onclick="location.href = 'change-lang.html';" type="button">Change language</button>
+	  </div>
+	  <div class="right-div">
+	    <p id="ca">Current account</p>
+	    <p id="st">DEPOSIT</p>
+	    <div class="options-with">
+        <p id="sa">Confirm amount to deposit</p>
+	      <div class="content">
+	        <div class="bank-name-div">
+	          Denomination: <span class="text-box btext">1,000</span>
+	        </div>
+	        <div class="cus-name-div top">
+	          Number of notes: <span class="text-box numtext">20</span>
+	        </div>
+	        <div class="acc-num-div top">
+	          Total Amount: <span class="text-box amounttext">N20,000.00</span>
+	        </div>
+	      </div>
+	      <div class="choices">
+	        <button class="clear-btn choice" onclick="location.href = 'transaction-success.html';" type="button">Done</button>
+          <button class="back-btn choice" onclick="location.href = 'deposit.html';" type="button">Back</button>
+          <button class="end-session-with end" onclick="location.href = 'login.html';" type="button">End session</button>
+	      </div>
+	    </div>
+	  </div>
+  </div>
+</body>
+</html>

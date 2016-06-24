@@ -1,0 +1,70 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.main-div{
+  font-family: helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  width: 800px;
+  font-size:17px; 
+  text-shadow: -1px -1px 0  rgba(0,0,0,0.3);
+  color: #FFFFFF;
+  background-color: #b66d15;   
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3f5992), to(#141f37));
+}
+p {
+  margin-left: 7px;
+}
+button {
+  color: white;
+  font-size: 15px;  
+}
+#st{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.options-with{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#sa{
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: -1px;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-direction: row;
+}
+.choice:hover{
+  background-color: #126ac0;
+}
+.end:hover{
+  background-color: #b1480f;
+}
+.ok-btn{
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  border: none;
+  width: 140px;
+  border-radius: 5px;
+  background: #00488f;
+}
+.end-session-with{
+  display: flex;
+  background: #7e330a;
+  justify-content: center;
+  height: 45px;
+  width: 140px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 30px;
+}
